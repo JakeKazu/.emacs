@@ -1,0 +1,128 @@
+ls
+git commit -m "add emacs"
+git push -u
+ls
+gcc hello.c 
+./a.out 
+gcc hello.c 
+./a.out 
+g++ hello.cpp
+./a.out 
+javac hello.java
+Hello
+java Hello
+ruby hello.rb
+ruby hello.rb
+python
+python hello.py
+git init
+git config --global user.name 'JakeKazu'
+git config --global user.email 'kaza9322@gmail.com'
+git config --global color.ui true
+ls
+mkdir hello
+ls
+git init
+git config --global user.email 'kaza9322@gmail.com'
+git config --global user.name 'JakeKazu'
+git config --global color.ui true
+git status
+git add hello
+ls
+git status
+git commit
+git commit -m "add hello"
+ls
+git remote add origin https://github.com//hello.git
+git rm origin
+git rm -r origin
+git remote rm origin
+git remote add origin https://github.com/JakeKazu/hello.git
+git push -u
+git branch
+git config --global user.name 'JakeKazu'
+git config --global user.email 'kaza9322@gmail.com'
+git config --global color.ui true
+git status
+git commit -m "add hello"
+ls
+git add hello/
+git clean -n
+git clean -f
+git clean -f hello/
+ls
+git status
+ls
+rm -r .git
+ls
+git init
+git config --global user.name 'JakeKazu'
+git config --global user.email 'kaza9322@gmail.com'
+git config --global color.ui true
+git status
+git add hello/
+git commit -m "add hello"
+git status
+vim README
+ls
+git status
+git add README 
+git commit -m "add README"
+git status
+git add hello/
+git commit -m "add hello"
+git status
+git add hello/
+git commit -m "add hello"
+git -rm hello/
+git rm -r hello/
+git rm -r README 
+git rm  README 
+git rm README 
+ls
+ls
+git status
+vim README
+ls
+git staus
+git status
+git add README 
+git commit
+git commit -m "add readme"
+git status
+ls
+git rm README 
+ls
+ls
+git status
+ls
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+python test.py 
+cd 
+cp .emacs.d
+cp -r .emacs.d init/ 
+cd init
+ls
+cp .emacs.d/init.el ./
+git add .emacs.d init.el
+git commit -m "add emacs"
+git status
+git push -u
+emacs
+ruby test.rb
+ruby test.rb 
+python -v
+python -version
+python -V
+mkdir python
+cd python/
+python html.py 
+python html.py 
+python html.py 
