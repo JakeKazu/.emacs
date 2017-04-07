@@ -1,0 +1,527 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" baseProfile="full" width="3803.277016px" height="15.4em">
+<style>
+  line.major { stroke: black; stroke-width: 2; }
+  line.minor { stroke: gray;  stroke-width: 1; stroke-dasharray: 5, 5; }
+  text.major,
+  text.minor { visibility: visible; }
+  rect { opacity: 0.5; }
+  text { visibility: hidden; }
+  rect:hover { opacity: 1; stroke: black; stroke-width: 2px; }
+  rect:hover + text { visibility: visible; }
+</style>
+<line class="minor" x1="0px" y1="0.0em" x2="0px" y2="15.4em"/><text class="minor" x="0px" y="15.4em">0ms</text>
+<line class="minor" x1="100px" y1="0.0em" x2="100px" y2="15.4em"/><text class="minor" x="100px" y="15.4em">100ms</text>
+<line class="minor" x1="200px" y1="0.0em" x2="200px" y2="15.4em"/><text class="minor" x="200px" y="15.4em">200ms</text>
+<line class="minor" x1="300px" y1="0.0em" x2="300px" y2="15.4em"/><text class="minor" x="300px" y="15.4em">300ms</text>
+<line class="minor" x1="400px" y1="0.0em" x2="400px" y2="15.4em"/><text class="minor" x="400px" y="15.4em">400ms</text>
+<line class="minor" x1="500px" y1="0.0em" x2="500px" y2="15.4em"/><text class="minor" x="500px" y="15.4em">500ms</text>
+<line class="minor" x1="600px" y1="0.0em" x2="600px" y2="15.4em"/><text class="minor" x="600px" y="15.4em">600ms</text>
+<line class="minor" x1="700px" y1="0.0em" x2="700px" y2="15.4em"/><text class="minor" x="700px" y="15.4em">700ms</text>
+<line class="minor" x1="800px" y1="0.0em" x2="800px" y2="15.4em"/><text class="minor" x="800px" y="15.4em">800ms</text>
+<line class="minor" x1="900px" y1="0.0em" x2="900px" y2="15.4em"/><text class="minor" x="900px" y="15.4em">900ms</text>
+<line class="minor" x1="1000px" y1="0.0em" x2="1000px" y2="15.4em"/><text class="minor" x="1000px" y="15.4em">1000ms</text>
+<line class="minor" x1="1100px" y1="0.0em" x2="1100px" y2="15.4em"/><text class="minor" x="1100px" y="15.4em">1100ms</text>
+<line class="minor" x1="1200px" y1="0.0em" x2="1200px" y2="15.4em"/><text class="minor" x="1200px" y="15.4em">1200ms</text>
+<line class="minor" x1="1300px" y1="0.0em" x2="1300px" y2="15.4em"/><text class="minor" x="1300px" y="15.4em">1300ms</text>
+<line class="minor" x1="1400px" y1="0.0em" x2="1400px" y2="15.4em"/><text class="minor" x="1400px" y="15.4em">1400ms</text>
+<line class="minor" x1="1500px" y1="0.0em" x2="1500px" y2="15.4em"/><text class="minor" x="1500px" y="15.4em">1500ms</text>
+<line class="minor" x1="1600px" y1="0.0em" x2="1600px" y2="15.4em"/><text class="minor" x="1600px" y="15.4em">1600ms</text>
+<line class="minor" x1="1700px" y1="0.0em" x2="1700px" y2="15.4em"/><text class="minor" x="1700px" y="15.4em">1700ms</text>
+<line class="minor" x1="1800px" y1="0.0em" x2="1800px" y2="15.4em"/><text class="minor" x="1800px" y="15.4em">1800ms</text>
+<line class="minor" x1="1900px" y1="0.0em" x2="1900px" y2="15.4em"/><text class="minor" x="1900px" y="15.4em">1900ms</text>
+<line class="minor" x1="2000px" y1="0.0em" x2="2000px" y2="15.4em"/><text class="minor" x="2000px" y="15.4em">2000ms</text>
+<line class="minor" x1="2100px" y1="0.0em" x2="2100px" y2="15.4em"/><text class="minor" x="2100px" y="15.4em">2100ms</text>
+<line class="minor" x1="2200px" y1="0.0em" x2="2200px" y2="15.4em"/><text class="minor" x="2200px" y="15.4em">2200ms</text>
+<line class="minor" x1="2300px" y1="0.0em" x2="2300px" y2="15.4em"/><text class="minor" x="2300px" y="15.4em">2300ms</text>
+<line class="minor" x1="2400px" y1="0.0em" x2="2400px" y2="15.4em"/><text class="minor" x="2400px" y="15.4em">2400ms</text>
+<line class="minor" x1="2500px" y1="0.0em" x2="2500px" y2="15.4em"/><text class="minor" x="2500px" y="15.4em">2500ms</text>
+<line class="minor" x1="2600px" y1="0.0em" x2="2600px" y2="15.4em"/><text class="minor" x="2600px" y="15.4em">2600ms</text>
+<line class="minor" x1="2700px" y1="0.0em" x2="2700px" y2="15.4em"/><text class="minor" x="2700px" y="15.4em">2700ms</text>
+<line class="minor" x1="2800px" y1="0.0em" x2="2800px" y2="15.4em"/><text class="minor" x="2800px" y="15.4em">2800ms</text>
+<line class="minor" x1="2900px" y1="0.0em" x2="2900px" y2="15.4em"/><text class="minor" x="2900px" y="15.4em">2900ms</text>
+<line class="minor" x1="3000px" y1="0.0em" x2="3000px" y2="15.4em"/><text class="minor" x="3000px" y="15.4em">3000ms</text>
+<line class="minor" x1="3100px" y1="0.0em" x2="3100px" y2="15.4em"/><text class="minor" x="3100px" y="15.4em">3100ms</text>
+<line class="minor" x1="3200px" y1="0.0em" x2="3200px" y2="15.4em"/><text class="minor" x="3200px" y="15.4em">3200ms</text>
+<line class="minor" x1="3300px" y1="0.0em" x2="3300px" y2="15.4em"/><text class="minor" x="3300px" y="15.4em">3300ms</text>
+<line class="minor" x1="3400px" y1="0.0em" x2="3400px" y2="15.4em"/><text class="minor" x="3400px" y="15.4em">3400ms</text>
+<line class="minor" x1="3500px" y1="0.0em" x2="3500px" y2="15.4em"/><text class="minor" x="3500px" y="15.4em">3500ms</text>
+<line class="minor" x1="3600px" y1="0.0em" x2="3600px" y2="15.4em"/><text class="minor" x="3600px" y="15.4em">3600ms</text>
+<line class="minor" x1="3700px" y1="0.0em" x2="3700px" y2="15.4em"/><text class="minor" x="3700px" y="15.4em">3700ms</text>
+<line class="minor" x1="3800px" y1="0.0em" x2="3800px" y2="15.4em"/><text class="minor" x="3800px" y="15.4em">3800ms</text>
+<line class="minor" x1="3900px" y1="0.0em" x2="3900px" y2="15.4em"/><text class="minor" x="3900px" y="15.4em">3900ms</text>
+<line class="major" x1="0px" y1="0.0em" x2="0px" y2="15.4em"/>
+<line class="major" x1="1000px" y1="0.0em" x2="1000px" y2="15.4em"/>
+<line class="major" x1="2000px" y1="0.0em" x2="2000px" y2="15.4em"/>
+<line class="major" x1="3000px" y1="0.0em" x2="3000px" y2="15.4em"/>
+<line class="major" x1="4000px" y1="0.0em" x2="4000px" y2="15.4em"/>
+<g><rect x="3798.563px" y="1.1em" width="4.503012" height="1.1em" fill="hsl(229.432486, 100%, 35%)"/><text x="3798.563px" y="2.1em">load(default)</text></g>
+<g><rect x="3788.514px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="3788.514px" y="4.3em">require(derived)</text></g>
+<g><rect x="3788.498px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="3788.498px" y="4.3em">require(cl)</text></g>
+<g><rect x="3788.396px" y="3.3em" width="0.030041" height="1.1em" fill="hsl(239.927913, 100%, 35%)"/><text x="3788.396px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="3787.643px" y="2.2em" width="4.454851" height="1.1em" fill="hsl(229.543008, 100%, 35%)"/><text x="3787.643px" y="3.2em">require(browse-kill-ring)</text></g>
+<g><rect x="3666.403px" y="1.1em" width="131.286144" height="1.1em" fill="hsl(64.571780, 100%, 35%)"/><text x="3666.403px" y="2.1em">require(set-else)</text></g>
+<g><rect x="3663.075px" y="2.2em" width="2.954006" height="1.1em" fill="hsl(233.014075, 100%, 35%)"/><text x="3663.075px" y="3.2em">require(color)</text></g>
+<g><rect x="3663.043px" y="2.2em" width="0.007153" height="1.1em" fill="hsl(239.982834, 100%, 35%)"/><text x="3663.043px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="3659.040px" y="2.2em" width="3.946781" height="1.1em" fill="hsl(230.712215, 100%, 35%)"/><text x="3659.040px" y="3.2em">require(rainbow-delimiters)</text></g>
+<g><rect x="3658.075px" y="1.1em" width="8.292913" height="1.1em" fill="hsl(220.899929, 100%, 35%)"/><text x="3658.075px" y="2.1em">require(set-brackets)</text></g>
+<g><rect x="3599.287px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="3599.287px" y="4.3em">require(ruby-mode)</text></g>
+<g><rect x="3597.490px" y="2.2em" width="60.256004" height="1.1em" fill="hsl(131.378028, 100%, 35%)"/><text x="3597.490px" y="3.2em">require(ruby-block)</text></g>
+<g><rect x="3595.535px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="3595.535px" y="4.3em">require(ruby-mode)</text></g>
+<g><rect x="3593.637px" y="2.2em" width="3.786087" height="1.1em" fill="hsl(231.083254, 100%, 35%)"/><text x="3593.637px" y="3.2em">require(ruby-electric)</text></g>
+<g><rect x="3583.914px" y="3.3em" width="5.952120" height="1.1em" fill="hsl(226.131734, 100%, 35%)"/><text x="3583.914px" y="4.3em">require(smie)</text></g>
+<g><rect x="3580.213px" y="2.2em" width="13.308048" height="1.1em" fill="hsl(210.094712, 100%, 35%)"/><text x="3580.213px" y="3.2em">require(ruby-mode)</text></g>
+<g><rect x="3579.452px" y="1.1em" width="78.583002" height="1.1em" fill="hsl(109.377905, 100%, 35%)"/><text x="3579.452px" y="2.1em">require(set-ruby)</text></g>
+<g><rect x="3578.547px" y="4.4em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="3578.547px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="3578.283px" y="4.4em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="3578.283px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="3577.751px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="3577.751px" y="5.4em">require(flymake)</text></g>
+<g><rect x="3576.794px" y="3.3em" width="2.022028" height="1.1em" fill="hsl(235.195867, 100%, 35%)"/><text x="3576.794px" y="4.3em">require(flymake-easy)</text></g>
+<g><rect x="3575.819px" y="2.2em" width="3.287077" height="1.1em" fill="hsl(232.239265, 100%, 35%)"/><text x="3575.819px" y="3.2em">require(flymake-python-pyflakes)</text></g>
+<g><rect x="3573.729px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="3573.729px" y="4.3em">require(bytecomp)</text></g>
+<g><rect x="3569.769px" y="2.2em" width="5.634069" height="1.1em" fill="hsl(226.852092, 100%, 35%)"/><text x="3569.769px" y="3.2em">load(paren)</text></g>
+<g><rect x="3569.174px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="3569.174px" y="3.2em">require(cus-start)</text></g>
+<g><rect x="3569.160px" y="2.2em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="3569.160px" y="3.2em">require(cus-load)</text></g>
+<g><rect x="3563.400px" y="2.2em" width="5.712032" height="1.1em" fill="hsl(226.675301, 100%, 35%)"/><text x="3563.400px" y="3.2em">load(time)</text></g>
+<g><rect x="3556.920px" y="2.2em" width="5.888939" height="1.1em" fill="hsl(226.274652, 100%, 35%)"/><text x="3556.920px" y="3.2em">require(cus-start)</text></g>
+<g><rect x="3537.191px" y="2.2em" width="19.677877" height="1.1em" fill="hsl(197.129357, 100%, 35%)"/><text x="3537.191px" y="3.2em">require(cus-load)</text></g>
+<g><rect x="3533.632px" y="3.3em" width="0.029087" height="1.1em" fill="hsl(239.930201, 100%, 35%)"/><text x="3533.632px" y="4.3em">require(easymenu)</text></g>
+<g><rect x="3473.137px" y="3.3em" width="0.241041" height="1.1em" fill="hsl(239.422198, 100%, 35%)"/><text x="3473.137px" y="4.3em">require(easymenu)</text></g>
+<g><rect x="3428.762px" y="4.4em" width="0.024796" height="1.1em" fill="hsl(239.940498, 100%, 35%)"/><text x="3428.762px" y="5.4em">require(info)</text></g>
+<g><rect x="3426.284px" y="3.3em" width="16.159058" height="1.1em" fill="hsl(204.189472, 100%, 35%)"/><text x="3426.284px" y="4.3em">require(info-look)</text></g>
+<g><rect x="3358.645px" y="4.4em" width="3.777981" height="1.1em" fill="hsl(231.101987, 100%, 35%)"/><text x="3358.645px" y="5.4em">require(imenu)</text></g>
+<g><rect x="3355.690px" y="3.3em" width="7.411003" height="1.1em" fill="hsl(222.856684, 100%, 35%)"/><text x="3355.690px" y="4.3em">require(which-func)</text></g>
+<g><rect x="3355.667px" y="3.3em" width="0.009060" height="1.1em" fill="hsl(239.978257, 100%, 35%)"/><text x="3355.667px" y="4.3em">require(thingatpt)</text></g>
+<g><rect x="3355.627px" y="3.3em" width="0.025034" height="1.1em" fill="hsl(239.939926, 100%, 35%)"/><text x="3355.627px" y="4.3em">require(shell)</text></g>
+<g><rect x="3353.981px" y="4.4em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="3353.981px" y="5.4em">require(comint)</text></g>
+<g><rect x="3351.615px" y="3.3em" width="3.988028" height="1.1em" fill="hsl(230.617074, 100%, 35%)"/><text x="3351.615px" y="4.3em">require(hippie-exp)</text></g>
+<g><rect x="3351.596px" y="3.3em" width="0.005960" height="1.1em" fill="hsl(239.985695, 100%, 35%)"/><text x="3351.596px" y="4.3em">require(flymake)</text></g>
+<g><rect x="3351.571px" y="3.3em" width="0.010967" height="1.1em" fill="hsl(239.973680, 100%, 35%)"/><text x="3351.571px" y="4.3em">require(custom)</text></g>
+<g><rect x="3351.550px" y="3.3em" width="0.008106" height="1.1em" fill="hsl(239.980546, 100%, 35%)"/><text x="3351.550px" y="4.3em">require(compile)</text></g>
+<g><rect x="3351.529px" y="3.3em" width="0.007868" height="1.1em" fill="hsl(239.981118, 100%, 35%)"/><text x="3351.529px" y="4.3em">require(comint)</text></g>
+<g><rect x="3351.452px" y="3.3em" width="0.061989" height="1.1em" fill="hsl(239.851273, 100%, 35%)"/><text x="3351.452px" y="4.3em">require(cl)</text></g>
+<g><rect x="3334.077px" y="5.5em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="3334.077px" y="6.5em">require(cc-vars)</text></g>
+<g><rect x="3334.054px" y="5.5em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="3334.054px" y="6.5em">require(cc-defs)</text></g>
+<g><rect x="3331.675px" y="4.4em" width="14.177084" height="1.1em" fill="hsl(208.276825, 100%, 35%)"/><text x="3331.675px" y="5.4em">require(cc-engine)</text></g>
+<g><rect x="3326.833px" y="5.5em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="3326.833px" y="6.5em">require(cc-defs)</text></g>
+<g><rect x="3324.557px" y="4.4em" width="7.084131" height="1.1em" fill="hsl(223.586332, 100%, 35%)"/><text x="3324.557px" y="5.4em">require(cc-vars)</text></g>
+<g><rect x="3324.535px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="3324.535px" y="5.4em">require(cc-defs)</text></g>
+<g><rect x="3322.121px" y="3.3em" width="29.296875" height="1.1em" fill="hsl(179.050909, 100%, 35%)"/><text x="3322.121px" y="4.3em">require(cc-cmds)</text></g>
+<g><rect x="3322.008px" y="3.3em" width="0.058889" height="1.1em" fill="hsl(239.858707, 100%, 35%)"/><text x="3322.008px" y="4.3em">require(ansi-color)</text></g>
+<g><rect x="3247.073px" y="2.2em" width="290.021896" height="1.1em" fill="hsl(13.202682, 100%, 35%)"/><text x="3247.073px" y="3.2em">require(python-mode)</text></g>
+<g><rect x="3246.834px" y="2.2em" width="0.005960" height="1.1em" fill="hsl(239.985695, 100%, 35%)"/><text x="3246.834px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="3246.420px" y="2.2em" width="0.005960" height="1.1em" fill="hsl(239.985695, 100%, 35%)"/><text x="3246.420px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="3243.319px" y="3.3em" width="0.015020" height="1.1em" fill="hsl(239.963954, 100%, 35%)"/><text x="3243.319px" y="4.3em">require(compile)</text></g>
+<g><rect x="3234.611px" y="4.4em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="3234.611px" y="5.4em">require(regexp-opt)</text></g>
+<g><rect x="3234.579px" y="4.4em" width="0.006914" height="1.1em" fill="hsl(239.983407, 100%, 35%)"/><text x="3234.579px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="3231.115px" y="3.3em" width="8.318901" height="1.1em" fill="hsl(220.842530, 100%, 35%)"/><text x="3231.115px" y="4.3em">require(cc-defs)</text></g>
+<g><rect x="3230.207px" y="2.2em" width="15.825987" height="1.1em" fill="hsl(204.870701, 100%, 35%)"/><text x="3230.207px" y="3.2em">require(flymake)</text></g>
+<g><rect x="3229.452px" y="1.1em" width="349.946022" height="1.1em" fill="hsl(7.251285, 100%, 35%)"/><text x="3229.452px" y="2.1em">require(set-flymake)</text></g>
+<g><rect x="3228.418px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="3228.418px" y="4.3em">require(tramp)</text></g>
+<g><rect x="3228.395px" y="3.3em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="3228.395px" y="4.3em">require(dash)</text></g>
+<g><rect x="3226.553px" y="2.2em" width="2.366781" height="1.1em" fill="hsl(234.386418, 100%, 35%)"/><text x="3226.553px" y="3.2em">require(rubocop)</text></g>
+<g><rect x="3222.055px" y="3.3em" width="3.682852" height="1.1em" fill="hsl(231.321937, 100%, 35%)"/><text x="3222.055px" y="4.3em">require(pos-tip)</text></g>
+<g><rect x="3222.032px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="3222.032px" y="4.3em">require(flycheck)</text></g>
+<g><rect x="3221.055px" y="2.2em" width="5.076170" height="1.1em" fill="hsl(228.121236, 100%, 35%)"/><text x="3221.055px" y="3.2em">require(flycheck-pos-tip)</text></g>
+<g><rect x="3128.181px" y="5.5em" width="0.006199" height="1.1em" fill="hsl(239.985123, 100%, 35%)"/><text x="3128.181px" y="6.5em">require(seq)</text></g>
+<g><rect x="3125.695px" y="4.4em" width="3.525019" height="1.1em" fill="hsl(231.687328, 100%, 35%)"/><text x="3125.695px" y="5.4em">require(map)</text></g>
+<g><rect x="3123.536px" y="3.3em" width="7.086039" height="1.1em" fill="hsl(223.582067, 100%, 35%)"/><text x="3123.536px" y="4.3em">require(json)</text></g>
+<g><rect x="3123.524px" y="3.3em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="3123.524px" y="4.3em">require(find-func)</text></g>
+<g><rect x="3123.509px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="3123.509px" y="4.3em">require(help-mode)</text></g>
+<g><rect x="3123.496px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="3123.496px" y="4.3em">require(rx)</text></g>
+<g><rect x="3123.482px" y="3.3em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="3123.482px" y="4.3em">require(easymenu)</text></g>
+<g><rect x="3123.465px" y="3.3em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="3123.465px" y="4.3em">require(tabulated-list)</text></g>
+<g><rect x="3123.447px" y="3.3em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="3123.447px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="3122.808px" y="4.4em" width="0.007868" height="1.1em" fill="hsl(239.981118, 100%, 35%)"/><text x="3122.808px" y="5.4em">require(pcase)</text></g>
+<g><rect x="3119.795px" y="3.3em" width="3.631115" height="1.1em" fill="hsl(231.441646, 100%, 35%)"/><text x="3119.795px" y="4.3em">require(subr-x)</text></g>
+<g><rect x="3119.766px" y="3.3em" width="0.006199" height="1.1em" fill="hsl(239.985123, 100%, 35%)"/><text x="3119.766px" y="4.3em">require(seq)</text></g>
+<g><rect x="3113.386px" y="3.3em" width="6.335020" height="1.1em" fill="hsl(225.267531, 100%, 35%)"/><text x="3113.386px" y="4.3em">require(dash)</text></g>
+<g><rect x="3111.516px" y="2.2em" width="109.333992" height="1.1em" fill="hsl(80.422903, 100%, 35%)"/><text x="3111.516px" y="3.2em">require(flycheck)</text></g>
+<g><rect x="3110.752px" y="1.1em" width="118.666887" height="1.1em" fill="hsl(73.256725, 100%, 35%)"/><text x="3110.752px" y="2.1em">require(set-flycheck)</text></g>
+<g><rect x="3106.206px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="3106.206px" y="5.4em">require(deferred)</text></g>
+<g><rect x="3104.317px" y="3.3em" width="2.646923" height="1.1em" fill="hsl(233.730722, 100%, 35%)"/><text x="3104.317px" y="4.3em">require(python-environment)</text></g>
+<g><rect x="3039.399px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="3039.399px" y="6.5em">require(cl)</text></g>
+<g><rect x="3037.961px" y="4.4em" width="61.969995" height="1.1em" fill="hsl(129.145409, 100%, 35%)"/><text x="3037.961px" y="5.4em">require(ctable)</text></g>
+<g><rect x="3031.956px" y="6.6em" width="0.003815" height="1.1em" fill="hsl(239.990845, 100%, 35%)"/><text x="3031.956px" y="7.6em">require(cl)</text></g>
+<g><rect x="3030.360px" y="5.5em" width="5.657196" height="1.1em" fill="hsl(226.799635, 100%, 35%)"/><text x="3030.360px" y="6.5em">require(deferred)</text></g>
+<g><rect x="3030.334px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="3030.334px" y="6.5em">require(cl)</text></g>
+<g><rect x="3028.989px" y="4.4em" width="8.948088" height="1.1em" fill="hsl(219.457380, 100%, 35%)"/><text x="3028.989px" y="5.4em">require(concurrent)</text></g>
+<g><rect x="3027.605px" y="3.3em" width="76.653004" height="1.1em" fill="hsl(111.509399, 100%, 35%)"/><text x="3027.605px" y="4.3em">require(epc)</text></g>
+<g><rect x="3027.590px" y="3.3em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="3027.590px" y="4.3em">require(ring)</text></g>
+<g><rect x="3027.537px" y="3.3em" width="0.009060" height="1.1em" fill="hsl(239.978257, 100%, 35%)"/><text x="3027.537px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="3026.115px" y="2.2em" width="84.426880" height="1.1em" fill="hsl(103.169176, 100%, 35%)"/><text x="3026.115px" y="3.2em">require(jedi-core)</text></g>
+<g><rect x="2852.929px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2852.929px" y="4.3em">require(help-mode)</text></g>
+<g><rect x="2852.914px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="2852.914px" y="4.3em">require(easymenu)</text></g>
+<g><rect x="2852.878px" y="3.3em" width="0.010014" height="1.1em" fill="hsl(239.975969, 100%, 35%)"/><text x="2852.878px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2850.685px" y="2.2em" width="42.433977" height="1.1em" fill="hsl(157.008376, 100%, 35%)"/><text x="2850.685px" y="3.2em">require(yasnippet)</text></g>
+<g><rect x="2844.141px" y="3.3em" width="0.006199" height="1.1em" fill="hsl(239.985123, 100%, 35%)"/><text x="2844.141px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2842.610px" y="2.2em" width="8.018970" height="1.1em" fill="hsl(221.505898, 100%, 35%)"/><text x="2842.610px" y="3.2em">require(irony)</text></g>
+<g><rect x="2841.703px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2841.703px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2841.676px" y="2.2em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="2841.676px" y="3.2em">require(company)</text></g>
+<g><rect x="2839.818px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2839.818px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2839.796px" y="2.2em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="2839.796px" y="3.2em">require(company)</text></g>
+<g><rect x="2835.390px" y="3.3em" width="0.006914" height="1.1em" fill="hsl(239.983407, 100%, 35%)"/><text x="2835.390px" y="4.3em">require(bytecomp)</text></g>
+<g><rect x="2776.217px" y="5.5em" width="0.007153" height="1.1em" fill="hsl(239.982834, 100%, 35%)"/><text x="2776.217px" y="6.5em">require(cl-generic)</text></g>
+<g><rect x="2773.991px" y="4.4em" width="3.320932" height="1.1em" fill="hsl(232.160652, 100%, 35%)"/><text x="2773.991px" y="5.4em">require(project)</text></g>
+<g><rect x="2773.977px" y="4.4em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2773.977px" y="5.4em">require(pcase)</text></g>
+<g><rect x="2773.962px" y="4.4em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2773.962px" y="5.4em">require(ring)</text></g>
+<g><rect x="2773.934px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2773.934px" y="5.4em">require(eieio)</text></g>
+<g><rect x="2773.908px" y="4.4em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2773.908px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="2771.599px" y="3.3em" width="60.519934" height="1.1em" fill="hsl(131.031740, 100%, 35%)"/><text x="2771.599px" y="4.3em">require(xref)</text></g>
+<g><rect x="2771.581px" y="3.3em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2771.581px" y="4.3em">require(button)</text></g>
+<g><rect x="2771.558px" y="3.3em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="2771.558px" y="4.3em">require(ring)</text></g>
+<g><rect x="2769.242px" y="2.2em" width="69.514990" height="1.1em" fill="hsl(119.759914, 100%, 35%)"/><text x="2769.242px" y="3.2em">require(etags)</text></g>
+<g><rect x="2769.225px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2769.225px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2769.203px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2769.203px" y="3.2em">require(company)</text></g>
+<g><rect x="2768.011px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2768.011px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2767.999px" y="2.2em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="2767.999px" y="3.2em">require(company-template)</text></g>
+<g><rect x="2767.977px" y="2.2em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="2767.977px" y="3.2em">require(company)</text></g>
+<g><rect x="2767.071px" y="2.2em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="2767.071px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2766.591px" y="3.3em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="2766.591px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2766.570px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2766.570px" y="4.3em">require(company)</text></g>
+<g><rect x="2765.761px" y="2.2em" width="1.289845" height="1.1em" fill="hsl(236.924252, 100%, 35%)"/><text x="2765.761px" y="3.2em">require(company-dabbrev)</text></g>
+<g><rect x="2765.737px" y="2.2em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="2765.737px" y="3.2em">require(company)</text></g>
+<g><rect x="2764.457px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2764.457px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2764.433px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2764.433px" y="3.2em">require(company)</text></g>
+<g><rect x="2763.409px" y="3.3em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2763.409px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2763.388px" y="3.3em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="2763.388px" y="4.3em">require(company)</text></g>
+<g><rect x="2762.716px" y="2.2em" width="0.998974" height="1.1em" fill="hsl(237.614398, 100%, 35%)"/><text x="2762.716px" y="3.2em">require(company-capf)</text></g>
+<g><rect x="2762.197px" y="3.3em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2762.197px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2762.176px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2762.176px" y="4.3em">require(company)</text></g>
+<g><rect x="2761.490px" y="2.2em" width="1.197100" height="1.1em" fill="hsl(237.144089, 100%, 35%)"/><text x="2761.490px" y="3.2em">require(company-cmake)</text></g>
+<g><rect x="2761.071px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2761.071px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2761.049px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2761.049px" y="3.2em">require(company)</text></g>
+<g><rect x="2759.321px" y="3.3em" width="0.003815" height="1.1em" fill="hsl(239.990845, 100%, 35%)"/><text x="2759.321px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2759.308px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2759.308px" y="4.3em">require(company-template)</text></g>
+<g><rect x="2759.286px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2759.286px" y="4.3em">require(company)</text></g>
+<g><rect x="2758.537px" y="2.2em" width="1.738071" height="1.1em" fill="hsl(235.864670, 100%, 35%)"/><text x="2758.537px" y="3.2em">require(company-clang)</text></g>
+<g><rect x="2758.074px" y="2.2em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="2758.074px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2758.061px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2758.061px" y="3.2em">require(company-template)</text></g>
+<g><rect x="2758.041px" y="2.2em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="2758.041px" y="3.2em">require(company)</text></g>
+<g><rect x="2756.550px" y="3.3em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="2756.550px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2755.701px" y="4.4em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2755.701px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="2755.028px" y="3.3em" width="1.499176" height="1.1em" fill="hsl(236.428814, 100%, 35%)"/><text x="2755.028px" y="4.3em">require(company-template)</text></g>
+<g><rect x="2755.005px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2755.005px" y="4.3em">require(company)</text></g>
+<g><rect x="2754.342px" y="2.2em" width="2.938986" height="1.1em" fill="hsl(233.049078, 100%, 35%)"/><text x="2754.342px" y="3.2em">require(company-eclim)</text></g>
+<g><rect x="2753.261px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2753.261px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2753.240px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2753.240px" y="3.2em">require(company)</text></g>
+<g><rect x="2752.146px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2752.146px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2752.126px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2752.126px" y="3.2em">require(company)</text></g>
+<g><rect x="2751.278px" y="2.2em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2751.278px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2751.257px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2751.257px" y="3.2em">require(company)</text></g>
+<g><rect x="2739.804px" y="3.3em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="2739.804px" y="4.3em">require(pcase)</text></g>
+<g><rect x="2739.787px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2739.787px" y="4.3em">require(newcomment)</text></g>
+<g><rect x="2739.756px" y="3.3em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2739.756px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2738.630px" y="2.2em" width="11.757135" height="1.1em" fill="hsl(213.378497, 100%, 35%)"/><text x="2738.630px" y="3.2em">require(company)</text></g>
+<g><rect x="2737.764px" y="1.1em" width="372.956038" height="1.1em" fill="hsl(5.760813, 100%, 35%)"/><text x="2737.764px" y="2.1em">require(set-company)</text></g>
+<g><rect x="2731.680px" y="2.2em" width="3.550053" height="1.1em" fill="hsl(231.629334, 100%, 35%)"/><text x="2731.680px" y="3.2em">load(yatexhks)</text></g>
+<g><rect x="2725.131px" y="3.3em" width="3.350973" height="1.1em" fill="hsl(232.090920, 100%, 35%)"/><text x="2725.131px" y="4.3em">require(yatexsec)</text></g>
+<g><rect x="2668.642px" y="2.2em" width="62.997103" height="1.1em" fill="hsl(127.825736, 100%, 35%)"/><text x="2668.642px" y="3.2em">load(yatex19)</text></g>
+<g><rect x="2660.137px" y="2.2em" width="7.531881" height="1.1em" fill="hsl(222.587462, 100%, 35%)"/><text x="2660.137px" y="3.2em">load(yatexadd)</text></g>
+<g><rect x="2647.650px" y="2.2em" width="7.441998" height="1.1em" fill="hsl(222.787622, 100%, 35%)"/><text x="2647.650px" y="3.2em">require(yatexlib)</text></g>
+<g><rect x="2645.367px" y="2.2em" width="2.259970" height="1.1em" fill="hsl(234.636903, 100%, 35%)"/><text x="2645.367px" y="3.2em">require(comment)</text></g>
+<g><rect x="2643.079px" y="1.1em" width="94.567060" height="1.1em" fill="hsl(93.220562, 100%, 35%)"/><text x="2643.079px" y="2.1em">require(yatex)</text></g>
+<g><rect x="2550.257px" y="1.1em" width="92.645884" height="1.1em" fill="hsl(95.028808, 100%, 35%)"/><text x="2550.257px" y="2.1em">require(web-mode)</text></g>
+<g><rect x="2546.204px" y="1.1em" width="3.602982" height="1.1em" fill="hsl(231.506768, 100%, 35%)"/><text x="2546.204px" y="2.1em">require(smartrep)</text></g>
+<g><rect x="2546.181px" y="1.1em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="2546.181px" y="2.1em">require(fringe-helper)</text></g>
+<g><rect x="2493.462px" y="2.2em" width="50.987005" height="1.1em" fill="hsl(144.137668, 100%, 35%)"/><text x="2493.462px" y="3.2em">require(fringe-helper)</text></g>
+<g><rect x="2491.821px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2491.821px" y="4.3em">require(bytecomp)</text></g>
+<g><rect x="2491.249px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2491.249px" y="4.3em">require(bytecomp)</text></g>
+<g><rect x="2488.368px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2488.368px" y="4.3em">require(bytecomp)</text></g>
+<g><rect x="2487.701px" y="3.3em" width="0.008821" height="1.1em" fill="hsl(239.978829, 100%, 35%)"/><text x="2487.701px" y="4.3em">require(bytecomp)</text></g>
+<g><rect x="2481.325px" y="3.3em" width="0.011921" height="1.1em" fill="hsl(239.971391, 100%, 35%)"/><text x="2481.325px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="2479.385px" y="2.2em" width="14.042854" height="1.1em" fill="hsl(208.556582, 100%, 35%)"/><text x="2479.385px" y="3.2em">require(git-gutter)</text></g>
+<g><rect x="2479.229px" y="2.2em" width="0.005960" height="1.1em" fill="hsl(239.985695, 100%, 35%)"/><text x="2479.229px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="2477.900px" y="1.1em" width="68.237066" height="1.1em" fill="hsl(121.300175, 100%, 35%)"/><text x="2477.900px" y="2.1em">require(git-gutter-fringe)</text></g>
+<g><rect x="2476.242px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2476.242px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="2475.884px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2475.884px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="2475.433px" y="2.2em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2475.433px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="2340.214px" y="4.4em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="2340.214px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="2340.187px" y="4.4em" width="0.014067" height="1.1em" fill="hsl(239.966242, 100%, 35%)"/><text x="2340.187px" y="5.4em">require(widget)</text></g>
+<g><rect x="2340.172px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="2340.172px" y="5.4em">require(format-spec)</text></g>
+<g><rect x="2340.130px" y="4.4em" width="0.005960" height="1.1em" fill="hsl(239.985695, 100%, 35%)"/><text x="2340.130px" y="5.4em">require(dired)</text></g>
+<g><rect x="2335.270px" y="3.3em" width="11.802912" height="1.1em" fill="hsl(213.280842, 100%, 35%)"/><text x="2335.270px" y="4.3em">require(image-dired)</text></g>
+<g><rect x="2267.861px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="2267.861px" y="6.5em">require(timer)</text></g>
+<g><rect x="2267.849px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2267.849px" y="6.5em">require(auth-source)</text></g>
+<g><rect x="2267.832px" y="5.5em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2267.832px" y="6.5em">require(password-cache)</text></g>
+<g><rect x="2261.381px" y="5.5em" width="6.420851" height="1.1em" fill="hsl(225.074265, 100%, 35%)"/><text x="2261.381px" y="6.5em">require(tramp-loaddefs)</text></g>
+<g><rect x="2258.581px" y="5.5em" width="2.778053" height="1.1em" fill="hsl(233.424431, 100%, 35%)"/><text x="2258.581px" y="6.5em">require(trampver)</text></g>
+<g><rect x="2083.286px" y="5.5em" width="175.235987" height="1.1em" fill="hsl(41.607442, 100%, 35%)"/><text x="2083.286px" y="6.5em">require(ucs-normalize)</text></g>
+<g><rect x="2079.485px" y="7.7em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="2079.485px" y="8.7em">require(comint)</text></g>
+<g><rect x="2076.907px" y="6.6em" width="4.562855" height="1.1em" fill="hsl(229.295227, 100%, 35%)"/><text x="2076.907px" y="7.6em">require(pcomplete)</text></g>
+<g><rect x="2076.883px" y="6.6em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="2076.883px" y="7.6em">require(comint)</text></g>
+<g><rect x="2074.143px" y="5.5em" width="9.120941" height="1.1em" fill="hsl(219.078368, 100%, 35%)"/><text x="2074.143px" y="6.5em">require(shell)</text></g>
+<g><rect x="2038.386px" y="5.5em" width="35.707951" height="1.1em" fill="hsl(167.932047, 100%, 35%)"/><text x="2038.386px" y="6.5em">require(format-spec)</text></g>
+<g><rect x="2038.354px" y="5.5em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="2038.354px" y="6.5em">require(custom)</text></g>
+<g><rect x="2038.325px" y="5.5em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2038.325px" y="6.5em">require(advice)</text></g>
+<g><rect x="2035.508px" y="4.4em" width="233.690023" height="1.1em" fill="hsl(23.190407, 100%, 35%)"/><text x="2035.508px" y="5.4em">require(tramp-compat)</text></g>
+<g><rect x="2032.279px" y="3.3em" width="302.915096" height="1.1em" fill="hsl(11.605603, 100%, 35%)"/><text x="2032.279px" y="4.3em">require(tramp)</text></g>
+<g><rect x="2029.805px" y="4.4em" width="0.012875" height="1.1em" fill="hsl(239.969103, 100%, 35%)"/><text x="2029.805px" y="5.4em">require(easymenu)</text></g>
+<g><rect x="2027.007px" y="4.4em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2027.007px" y="5.4em">require(dired)</text></g>
+<g><rect x="2023.188px" y="3.3em" width="9.020090" height="1.1em" fill="hsl(219.299423, 100%, 35%)"/><text x="2023.188px" y="4.3em">require(dired-x)</text></g>
+<g><rect x="2020.640px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2020.640px" y="5.4em">require(dired)</text></g>
+<g><rect x="2020.616px" y="4.4em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="2020.616px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="2018.372px" y="3.3em" width="4.765034" height="1.1em" fill="hsl(228.832109, 100%, 35%)"/><text x="2018.372px" y="4.3em">require(dired-aux)</text></g>
+<g><rect x="2009.967px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="2009.967px" y="5.4em">require(thingatpt)</text></g>
+<g><rect x="2009.945px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="2009.945px" y="5.4em">require(url-parse)</text></g>
+<g><rect x="2007.569px" y="3.3em" width="10.750055" height="1.1em" fill="hsl(215.538246, 100%, 35%)"/><text x="2007.569px" y="4.3em">require(ffap)</text></g>
+<g><rect x="2007.545px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="2007.545px" y="4.3em">require(thingatpt)</text></g>
+<g><rect x="1997.759px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1997.759px" y="5.4em">require(helm-help)</text></g>
+<g><rect x="1997.739px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1997.739px" y="5.4em">require(helm-regexp)</text></g>
+<g><rect x="1997.717px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1997.717px" y="5.4em">require(helm-grep)</text></g>
+<g><rect x="1995.737px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1995.737px" y="6.5em">require(helm)</text></g>
+<g><rect x="1995.714px" y="5.5em" width="0.003815" height="1.1em" fill="hsl(239.990845, 100%, 35%)"/><text x="1995.714px" y="6.5em">require(cl-lib)</text></g>
+<g><rect x="1994.582px" y="4.4em" width="3.103018" height="1.1em" fill="hsl(232.667116, 100%, 35%)"/><text x="1994.582px" y="5.4em">require(helm-elscreen)</text></g>
+<g><rect x="1994.562px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1994.562px" y="5.4em">require(helm-utils)</text></g>
+<g><rect x="1994.543px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1994.543px" y="5.4em">require(helm-types)</text></g>
+<g><rect x="1994.522px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1994.522px" y="5.4em">require(helm)</text></g>
+<g><rect x="1994.490px" y="4.4em" width="0.005007" height="1.1em" fill="hsl(239.987984, 100%, 35%)"/><text x="1994.490px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1992.718px" y="3.3em" width="14.782190" height="1.1em" fill="hsl(207.020334, 100%, 35%)"/><text x="1992.718px" y="4.3em">require(helm-buffers)</text></g>
+<g><rect x="1956.256px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1956.256px" y="5.4em">require(helm-grep)</text></g>
+<g><rect x="1956.237px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1956.237px" y="5.4em">require(helm-utils)</text></g>
+<g><rect x="1956.218px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1956.218px" y="5.4em">require(helm-help)</text></g>
+<g><rect x="1956.197px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1956.197px" y="5.4em">require(helm)</text></g>
+<g><rect x="1956.166px" y="4.4em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1956.166px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1954.252px" y="3.3em" width="38.395166" height="1.1em" fill="hsl(163.479444, 100%, 35%)"/><text x="1954.252px" y="4.3em">require(helm-tags)</text></g>
+<g><rect x="1939.728px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1939.728px" y="5.4em">require(helm-net)</text></g>
+<g><rect x="1939.192px" y="5.5em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="1939.192px" y="6.5em">require(helm)</text></g>
+<g><rect x="1939.161px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1939.161px" y="6.5em">require(cl-lib)</text></g>
+<g><rect x="1937.855px" y="4.4em" width="1.852989" height="1.1em" fill="hsl(235.593775, 100%, 35%)"/><text x="1937.855px" y="5.4em">require(helm-adaptive)</text></g>
+<g><rect x="1877.652px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1877.652px" y="6.5em">require(info)</text></g>
+<g><rect x="1877.640px" y="5.5em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1877.640px" y="6.5em">require(helm-lib)</text></g>
+<g><rect x="1877.627px" y="5.5em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1877.627px" y="6.5em">require(helm)</text></g>
+<g><rect x="1877.603px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1877.603px" y="6.5em">require(cl-lib)</text></g>
+<g><rect x="1876.303px" y="4.4em" width="61.504841" height="1.1em" fill="hsl(129.747534, 100%, 35%)"/><text x="1876.303px" y="5.4em">require(helm-info)</text></g>
+<g><rect x="1876.291px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1876.291px" y="5.4em">require(helm-utils)</text></g>
+<g><rect x="1876.280px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1876.280px" y="5.4em">require(helm-types)</text></g>
+<g><rect x="1876.267px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1876.267px" y="5.4em">require(helm-help)</text></g>
+<g><rect x="1876.255px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1876.255px" y="5.4em">require(helm-lib)</text></g>
+<g><rect x="1876.241px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1876.241px" y="5.4em">require(helm)</text></g>
+<g><rect x="1868.329px" y="5.5em" width="3.038168" height="1.1em" fill="hsl(232.818049, 100%, 35%)"/><text x="1868.329px" y="6.5em">require(pp)</text></g>
+<g><rect x="1866.063px" y="4.4em" width="10.137081" height="1.1em" fill="hsl(216.863498, 100%, 35%)"/><text x="1866.063px" y="5.4em">require(bookmark)</text></g>
+<g><rect x="1866.028px" y="4.4em" width="0.006914" height="1.1em" fill="hsl(239.983407, 100%, 35%)"/><text x="1866.028px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1864.143px" y="3.3em" width="90.048075" height="1.1em" fill="hsl(97.529820, 100%, 35%)"/><text x="1864.143px" y="4.3em">require(helm-bookmark)</text></g>
+<g><rect x="1860.549px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1860.549px" y="5.4em">require(helm-help)</text></g>
+<g><rect x="1860.537px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1860.537px" y="5.4em">require(helm-types)</text></g>
+<g><rect x="1860.526px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1860.526px" y="5.4em">require(helm)</text></g>
+<g><rect x="1860.502px" y="4.4em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1860.502px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1859.164px" y="3.3em" width="4.942179" height="1.1em" fill="hsl(228.427103, 100%, 35%)"/><text x="1859.164px" y="4.3em">require(helm-locate)</text></g>
+<g><rect x="1859.141px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1859.141px" y="4.3em">require(helm-help)</text></g>
+<g><rect x="1804.596px" y="4.4em" width="2.395868" height="1.1em" fill="hsl(234.318251, 100%, 35%)"/><text x="1804.596px" y="5.4em">require(wgrep-helm)</text></g>
+<g><rect x="1800.352px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1800.352px" y="6.5em">require(helm-utils)</text></g>
+<g><rect x="1800.334px" y="5.5em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1800.334px" y="6.5em">require(helm-help)</text></g>
+<g><rect x="1800.308px" y="5.5em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1800.308px" y="6.5em">require(helm)</text></g>
+<g><rect x="1800.282px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1800.282px" y="6.5em">require(cl-lib)</text></g>
+<g><rect x="1798.886px" y="4.4em" width="5.661011" height="1.1em" fill="hsl(226.790984, 100%, 35%)"/><text x="1798.886px" y="5.4em">require(helm-regexp)</text></g>
+<g><rect x="1798.865px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1798.865px" y="5.4em">require(helm-help)</text></g>
+<g><rect x="1798.843px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1798.843px" y="5.4em">require(helm)</text></g>
+<g><rect x="1798.793px" y="4.4em" width="0.010014" height="1.1em" fill="hsl(239.975969, 100%, 35%)"/><text x="1798.793px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1797.046px" y="3.3em" width="62.045813" height="1.1em" fill="hsl(129.047531, 100%, 35%)"/><text x="1797.046px" y="4.3em">require(helm-grep)</text></g>
+<g><rect x="1787.773px" y="5.5em" width="6.660938" height="1.1em" fill="hsl(224.534538, 100%, 35%)"/><text x="1787.773px" y="6.5em">require(browse-url)</text></g>
+<g><rect x="1752.041px" y="5.5em" width="35.677910" height="1.1em" fill="hsl(167.982503, 100%, 35%)"/><text x="1752.041px" y="6.5em">require(xml)</text></g>
+<g><rect x="1751.357px" y="6.6em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1751.357px" y="7.6em">require(url-util)</text></g>
+<g><rect x="1751.344px" y="6.6em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1751.344px" y="7.6em">require(url-parse)</text></g>
+<g><rect x="1751.172px" y="7.7em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1751.172px" y="8.7em">require(url-parse)</text></g>
+<g><rect x="1748.987px" y="6.6em" width="2.338886" height="1.1em" fill="hsl(234.451809, 100%, 35%)"/><text x="1748.987px" y="7.6em">require(url-proxy)</text></g>
+<g><rect x="1748.975px" y="6.6em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1748.975px" y="7.6em">require(url-methods)</text></g>
+<g><rect x="1748.740px" y="7.7em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1748.740px" y="8.7em">require(url-vars)</text></g>
+<g><rect x="1746.571px" y="6.6em" width="2.386093" height="1.1em" fill="hsl(234.341158, 100%, 35%)"/><text x="1746.571px" y="7.6em">require(url-privacy)</text></g>
+<g><rect x="1746.322px" y="7.7em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1746.322px" y="8.7em">require(url-parse)</text></g>
+<g><rect x="1746.310px" y="7.7em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1746.310px" y="8.7em">require(url-util)</text></g>
+<g><rect x="1745.949px" y="8.8em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1745.949px" y="9.8em">require(url-parse)</text></g>
+<g><rect x="1743.740px" y="7.7em" width="2.552032" height="1.1em" fill="hsl(233.952616, 100%, 35%)"/><text x="1743.740px" y="8.7em">require(url-methods)</text></g>
+<g><rect x="1741.573px" y="6.6em" width="4.978895" height="1.1em" fill="hsl(228.343248, 100%, 35%)"/><text x="1741.573px" y="7.6em">require(url-expand)</text></g>
+<g><rect x="1741.248px" y="7.7em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1741.248px" y="8.7em">require(url-parse)</text></g>
+<g><rect x="1738.950px" y="6.6em" width="2.604008" height="1.1em" fill="hsl(233.831050, 100%, 35%)"/><text x="1738.950px" y="7.6em">require(url-history)</text></g>
+<g><rect x="1734.932px" y="7.7em" width="2.535820" height="1.1em" fill="hsl(233.990548, 100%, 35%)"/><text x="1734.932px" y="8.7em">require(url-domsuf)</text></g>
+<g><rect x="1734.918px" y="7.7em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1734.918px" y="8.7em">require(url-parse)</text></g>
+<g><rect x="1733.811px" y="8.8em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1733.811px" y="9.8em">require(url-vars)</text></g>
+<g><rect x="1729.660px" y="11.0em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1729.660px" y="12.0em">require(eieio)</text></g>
+<g><rect x="1725.707px" y="12.1em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1725.707px" y="13.1em">require(time-date)</text></g>
+<g><rect x="1722.996px" y="11.0em" width="6.628990" height="1.1em" fill="hsl(224.606284, 100%, 35%)"/><text x="1722.996px" y="12.0em">require(gnus-util)</text></g>
+<g><rect x="1720.290px" y="13.2em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1720.290px" y="14.2em">require(help-mode)</text></g>
+<g><rect x="1720.230px" y="13.2em" width="0.011921" height="1.1em" fill="hsl(239.971391, 100%, 35%)"/><text x="1720.230px" y="14.2em">require(cl-lib)</text></g>
+<g><rect x="1690.276px" y="12.1em" width="32.189846" height="1.1em" fill="hsl(173.945227, 100%, 35%)"/><text x="1690.276px" y="13.1em">require(help-fns)</text></g>
+<g><rect x="1677.993px" y="12.1em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1677.993px" y="13.1em">require(timer)</text></g>
+<g><rect x="1675.353px" y="12.1em" width="2.613068" height="1.1em" fill="hsl(233.809866, 100%, 35%)"/><text x="1675.353px" y="13.1em">require(mail-prsvr)</text></g>
+<g><rect x="1672.569px" y="11.0em" width="50.405979" height="1.1em" fill="hsl(144.977583, 100%, 35%)"/><text x="1672.569px" y="12.0em">require(mm-util)</text></g>
+<g><rect x="1670.117px" y="11.0em" width="2.429008" height="1.1em" fill="hsl(234.240611, 100%, 35%)"/><text x="1670.117px" y="12.0em">require(password-cache)</text></g>
+<g><rect x="1667.370px" y="9.9em" width="65.315008" height="1.1em" fill="hsl(124.896931, 100%, 35%)"/><text x="1667.370px" y="10.9em">require(auth-source)</text></g>
+<g><rect x="1667.330px" y="9.9em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1667.330px" y="10.9em">require(url-vars)</text></g>
+<g><rect x="1665.062px" y="8.8em" width="68.725824" height="1.1em" fill="hsl(120.708757, 100%, 35%)"/><text x="1665.062px" y="9.8em">require(url-parse)</text></g>
+<g><rect x="1662.457px" y="7.7em" width="72.440147" height="1.1em" fill="hsl(116.307489, 100%, 35%)"/><text x="1662.457px" y="8.7em">require(url-util)</text></g>
+<g><rect x="1660.173px" y="6.6em" width="78.754902" height="1.1em" fill="hsl(109.190046, 100%, 35%)"/><text x="1660.173px" y="7.6em">require(url-cookie)</text></g>
+<g><rect x="1656.838px" y="6.6em" width="3.310919" height="1.1em" fill="hsl(232.183901, 100%, 35%)"/><text x="1656.838px" y="7.6em">require(url-vars)</text></g>
+<g><rect x="1652.695px" y="6.6em" width="4.112959" height="1.1em" fill="hsl(230.329141, 100%, 35%)"/><text x="1652.695px" y="7.6em">require(mailcap)</text></g>
+<g><rect x="1650.388px" y="5.5em" width="101.630211" height="1.1em" fill="hsl(86.863404, 100%, 35%)"/><text x="1650.388px" y="6.5em">require(url)</text></g>
+<g><rect x="1650.376px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1650.376px" y="6.5em">require(helm-help)</text></g>
+<g><rect x="1650.365px" y="5.5em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1650.365px" y="6.5em">require(helm)</text></g>
+<g><rect x="1650.342px" y="5.5em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1650.342px" y="6.5em">require(cl-lib)</text></g>
+<g><rect x="1648.935px" y="4.4em" width="147.692919" height="1.1em" fill="hsl(54.801071, 100%, 35%)"/><text x="1648.935px" y="5.4em">require(helm-net)</text></g>
+<g><rect x="1648.923px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1648.923px" y="5.4em">require(helm-help)</text></g>
+<g><rect x="1648.911px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1648.911px" y="5.4em">require(helm)</text></g>
+<g><rect x="1648.887px" y="4.4em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1648.887px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1647.536px" y="3.3em" width="149.471998" height="1.1em" fill="hsl(53.834738, 100%, 35%)"/><text x="1647.536px" y="4.3em">require(helm-external)</text></g>
+<g><rect x="1618.678px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1618.678px" y="5.4em">require(dired)</text></g>
+<g><rect x="1606.675px" y="6.6em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1606.675px" y="7.6em">require(regexp-opt)</text></g>
+<g><rect x="1603.666px" y="6.6em" width="2.985001" height="1.1em" fill="hsl(232.941865, 100%, 35%)"/><text x="1603.666px" y="7.6em">require(ansi-color)</text></g>
+<g><rect x="1603.644px" y="6.6em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1603.644px" y="7.6em">require(ring)</text></g>
+<g><rect x="1601.442px" y="5.5em" width="11.291981" height="1.1em" fill="hsl(214.373349, 100%, 35%)"/><text x="1601.442px" y="6.5em">require(comint)</text></g>
+<g><rect x="1601.413px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1601.413px" y="6.5em">require(tool-bar)</text></g>
+<g><rect x="1599.006px" y="4.4em" width="19.636869" height="1.1em" fill="hsl(197.210213, 100%, 35%)"/><text x="1599.006px" y="5.4em">require(compile)</text></g>
+<g><rect x="1597.370px" y="5.5em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1597.370px" y="6.5em">require(helm)</text></g>
+<g><rect x="1596.188px" y="4.4em" width="2.798080" height="1.1em" fill="hsl(233.377688, 100%, 35%)"/><text x="1596.188px" y="5.4em">require(helm-help)</text></g>
+<g><rect x="1596.177px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1596.177px" y="5.4em">require(helm)</text></g>
+<g><rect x="1596.154px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1596.154px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1594.802px" y="3.3em" width="52.664042" height="1.1em" fill="hsl(141.740583, 100%, 35%)"/><text x="1594.802px" y="4.3em">require(helm-utils)</text></g>
+<g><rect x="1556.541px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1556.541px" y="5.4em">require(eieio)</text></g>
+<g><rect x="1556.519px" y="4.4em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1556.519px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1555.342px" y="3.3em" width="39.398909" height="1.1em" fill="hsl(161.846740, 100%, 35%)"/><text x="1555.342px" y="4.3em">require(helm-types)</text></g>
+<g><rect x="1555.324px" y="3.3em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1555.324px" y="4.3em">require(helm)</text></g>
+<g><rect x="1555.293px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1555.293px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="1552.821px" y="2.2em" width="909.183025" height="1.1em" fill="hsl(0.027020, 100%, 35%)"/><text x="1552.821px" y="3.2em">require(helm-files)</text></g>
+<g><rect x="1552.765px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1552.765px" y="3.2em">require(helm-lib)</text></g>
+<g><rect x="1509.491px" y="4.4em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1509.491px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1506.206px" y="4.4em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1506.206px" y="5.4em">require(cl-generic)</text></g>
+<g><rect x="1506.185px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1506.185px" y="5.4em">require(eieio-core)</text></g>
+<g><rect x="1503.547px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1503.547px" y="5.4em">require(helm-lib)</text></g>
+<g><rect x="1499.144px" y="6.6em" width="0.006914" height="1.1em" fill="hsl(239.983407, 100%, 35%)"/><text x="1499.144px" y="7.6em">require(cl-generic)</text></g>
+<g><rect x="1497.860px" y="6.6em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1497.860px" y="7.6em">require(cl-macs)</text></g>
+<g><rect x="1497.153px" y="6.6em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1497.153px" y="7.6em">require(pcase)</text></g>
+<g><rect x="1497.128px" y="6.6em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1497.128px" y="7.6em">require(cl-lib)</text></g>
+<g><rect x="1494.603px" y="5.5em" width="4.907846" height="1.1em" fill="hsl(228.505541, 100%, 35%)"/><text x="1494.603px" y="6.5em">require(eieio-core)</text></g>
+<g><rect x="1491.954px" y="4.4em" width="11.565924" height="1.1em" fill="hsl(213.786892, 100%, 35%)"/><text x="1491.954px" y="5.4em">require(eieio)</text></g>
+<g><rect x="1491.929px" y="4.4em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1491.929px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1489.707px" y="3.3em" width="50.015211" height="1.1em" fill="hsl(145.545218, 100%, 35%)"/><text x="1489.707px" y="4.3em">require(helm-source)</text></g>
+<g><rect x="1488.914px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1488.914px" y="5.4em">require(helm-lib)</text></g>
+<g><rect x="1488.889px" y="4.4em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1488.889px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1487.544px" y="3.3em" width="2.143145" height="1.1em" fill="hsl(234.911178, 100%, 35%)"/><text x="1487.544px" y="4.3em">require(helm-multi-match)</text></g>
+<g><rect x="1451.033px" y="4.4em" width="34.650087" height="1.1em" fill="hsl(169.717968, 100%, 35%)"/><text x="1451.033px" y="5.4em">require(dired)</text></g>
+<g><rect x="1451.011px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1451.011px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1449.758px" y="3.3em" width="37.764072" height="1.1em" fill="hsl(164.514416, 100%, 35%)"/><text x="1449.758px" y="4.3em">require(helm-lib)</text></g>
+<g><rect x="1449.746px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1449.746px" y="4.3em">require(advice)</text></g>
+<g><rect x="1449.724px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1449.724px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="1448.498px" y="2.2em" width="104.205132" height="1.1em" fill="hsl(84.655291, 100%, 35%)"/><text x="1448.498px" y="3.2em">require(helm)</text></g>
+<g><rect x="1448.468px" y="2.2em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1448.468px" y="3.2em">require(cl-lib)</text></g>
+<g><rect x="1443.411px" y="3.3em" width="3.161907" height="1.1em" fill="hsl(232.530140, 100%, 35%)"/><text x="1443.411px" y="4.3em">load(helm-autoloads)</text></g>
+<g><rect x="1442.833px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1442.833px" y="5.4em">require(easymenu)</text></g>
+<g><rect x="1441.533px" y="3.3em" width="1.766920" height="1.1em" fill="hsl(235.796636, 100%, 35%)"/><text x="1441.533px" y="4.3em">require(helm-easymenu)</text></g>
+<g><rect x="1439.814px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1439.814px" y="4.3em">require(bytecomp)</text></g>
+<g><rect x="1436.348px" y="4.4em" width="2.741814" height="1.1em" fill="hsl(233.509039, 100%, 35%)"/><text x="1436.348px" y="5.4em">require(async)</text></g>
+<g><rect x="1436.323px" y="4.4em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1436.323px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1434.233px" y="3.3em" width="5.400896" height="1.1em" fill="hsl(227.381668, 100%, 35%)"/><text x="1434.233px" y="4.3em">require(async-bytecomp)</text></g>
+<g><rect x="1432.965px" y="2.2em" width="13.672113" height="1.1em" fill="hsl(209.331221, 100%, 35%)"/><text x="1432.965px" y="3.2em">require(helm-config)</text></g>
+<g><rect x="1431.883px" y="1.1em" width="1045.974970" height="1.1em" fill="hsl(0.006880, 100%, 35%)"/><text x="1431.883px" y="2.1em">require(set-helm)</text></g>
+<g><rect x="1431.389px" y="2.2em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1431.389px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1424.298px" y="2.2em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="1424.298px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1422.505px" y="2.2em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1422.505px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1303.092px" y="3.3em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1303.092px" y="4.3em">require(gv)</text></g>
+<g><rect x="1303.076px" y="3.3em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1303.076px" y="4.3em">require(macroexp)</text></g>
+<g><rect x="1303.054px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1303.054px" y="4.3em">require(cl-lib)</text></g>
+<g><rect x="1300.369px" y="2.2em" width="4.603148" height="1.1em" fill="hsl(229.202857, 100%, 35%)"/><text x="1300.369px" y="3.2em">require(cl)</text></g>
+<g><rect x="1299.112px" y="2.2em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1299.112px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1298.011px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1298.011px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1296.819px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1296.819px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1295.816px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1295.816px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1294.849px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1294.849px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1293.615px" y="2.2em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1293.615px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1292.605px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1292.605px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1291.638px" y="2.2em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1291.638px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1290.775px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1290.775px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1289.899px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1289.899px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1288.893px" y="2.2em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1288.893px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1287.761px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1287.761px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1286.723px" y="2.2em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1286.723px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1252.612px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1252.612px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1241.855px" y="5.5em" width="2.553940" height="1.1em" fill="hsl(233.948154, 100%, 35%)"/><text x="1241.855px" y="6.5em">require(diff)</text></g>
+<g><rect x="1239.549px" y="4.4em" width="12.603998" height="1.1em" fill="hsl(211.579104, 100%, 35%)"/><text x="1239.549px" y="5.4em">require(undo-tree)</text></g>
+<g><rect x="1238.408px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1238.408px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1237.258px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1237.258px" y="5.4em">require(evil-repeat)</text></g>
+<g><rect x="1237.249px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1237.249px" y="5.4em">require(evil-types)</text></g>
+<g><rect x="1237.241px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1237.241px" y="5.4em">require(evil-macros)</text></g>
+<g><rect x="1237.230px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1237.230px" y="5.4em">require(evil-core)</text></g>
+<g><rect x="1237.196px" y="4.4em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1237.196px" y="5.4em">require(evil-maps)</text></g>
+<g><rect x="1235.356px" y="3.3em" width="46.081066" height="1.1em" fill="hsl(151.385303, 100%, 35%)"/><text x="1235.356px" y="4.3em">require(evil-integration)</text></g>
+<g><rect x="1232.735px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1232.735px" y="5.4em">require(evil-command-window)</text></g>
+<g><rect x="1232.726px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1232.726px" y="5.4em">require(evil-commands)</text></g>
+<g><rect x="1232.717px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1232.717px" y="5.4em">require(evil-ex)</text></g>
+<g><rect x="1232.689px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1232.689px" y="5.4em">require(evil-states)</text></g>
+<g><rect x="1231.564px" y="3.3em" width="3.736973" height="1.1em" fill="hsl(231.196777, 100%, 35%)"/><text x="1231.564px" y="4.3em">require(evil-maps)</text></g>
+<g><rect x="1231.534px" y="3.3em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1231.534px" y="4.3em">require(evil-jumps)</text></g>
+<g><rect x="1179.413px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1179.413px" y="6.5em">require(bytecomp)</text></g>
+<g><rect x="1178.269px" y="5.5em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1178.269px" y="6.5em">require(bytecomp)</text></g>
+<g><rect x="1154.012px" y="5.5em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1154.012px" y="6.5em">require(evil-states)</text></g>
+<g><rect x="1153.994px" y="5.5em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1153.994px" y="6.5em">require(evil-core)</text></g>
+<g><rect x="1153.233px" y="4.4em" width="27.181149" height="1.1em" fill="hsl(182.879495, 100%, 35%)"/><text x="1153.233px" y="5.4em">require(evil-jumps)</text></g>
+<g><rect x="1152.298px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1152.298px" y="6.5em">require(evil-ex)</text></g>
+<g><rect x="1152.284px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1152.284px" y="6.5em">require(evil-search)</text></g>
+<g><rect x="1152.268px" y="5.5em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1152.268px" y="6.5em">require(evil-common)</text></g>
+<g><rect x="1152.236px" y="5.5em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1152.236px" y="6.5em">require(evil-vars)</text></g>
+<g><rect x="1151.524px" y="4.4em" width="1.688957" height="1.1em" fill="hsl(235.980542, 100%, 35%)"/><text x="1151.524px" y="5.4em">require(evil-command-window)</text></g>
+<g><rect x="1151.515px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1151.515px" y="5.4em">require(evil-types)</text></g>
+<g><rect x="1151.507px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1151.507px" y="5.4em">require(evil-ex)</text></g>
+<g><rect x="1151.499px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1151.499px" y="5.4em">require(evil-search)</text></g>
+<g><rect x="1151.488px" y="4.4em" width="0.002146" height="1.1em" fill="hsl(239.994850, 100%, 35%)"/><text x="1151.488px" y="5.4em">require(evil-digraphs)</text></g>
+<g><rect x="1151.471px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1151.471px" y="5.4em">require(evil-common)</text></g>
+<g><rect x="1150.722px" y="3.3em" width="80.734968" height="1.1em" fill="hsl(107.049275, 100%, 35%)"/><text x="1150.722px" y="4.3em">require(evil-commands)</text></g>
+<g><rect x="1149.345px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1149.345px" y="5.4em">require(evil-macros)</text></g>
+<g><rect x="1149.328px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1149.328px" y="5.4em">require(evil-common)</text></g>
+<g><rect x="1148.545px" y="3.3em" width="2.137184" height="1.1em" fill="hsl(234.925180, 100%, 35%)"/><text x="1148.545px" y="4.3em">require(evil-types)</text></g>
+<g><rect x="1148.527px" y="3.3em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1148.527px" y="4.3em">require(evil-digraphs)</text></g>
+<g><rect x="1148.510px" y="3.3em" width="0.001907" height="1.1em" fill="hsl(239.995422, 100%, 35%)"/><text x="1148.510px" y="4.3em">require(evil-ex)</text></g>
+<g><rect x="1146.130px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1146.130px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1145.214px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1145.214px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1143.991px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1143.991px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1141.160px" y="5.5em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1141.160px" y="6.5em">require(evil-states)</text></g>
+<g><rect x="1141.144px" y="5.5em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1141.144px" y="6.5em">require(evil-common)</text></g>
+<g><rect x="1140.466px" y="4.4em" width="2.753973" height="1.1em" fill="hsl(233.480647, 100%, 35%)"/><text x="1140.466px" y="5.4em">require(evil-ex)</text></g>
+<g><rect x="1140.457px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1140.457px" y="5.4em">require(evil-common)</text></g>
+<g><rect x="1140.440px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1140.440px" y="5.4em">require(evil-core)</text></g>
+<g><rect x="1139.757px" y="3.3em" width="8.723974" height="1.1em" fill="hsl(219.949765, 100%, 35%)"/><text x="1139.757px" y="4.3em">require(evil-search)</text></g>
+<g><rect x="1138.386px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1138.386px" y="5.4em">require(evil-repeat)</text></g>
+<g><rect x="1138.377px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1138.377px" y="5.4em">require(evil-states)</text></g>
+<g><rect x="1138.361px" y="4.4em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1138.361px" y="5.4em">require(evil-common)</text></g>
+<g><rect x="1137.666px" y="3.3em" width="2.065182" height="1.1em" fill="hsl(235.094393, 100%, 35%)"/><text x="1137.666px" y="4.3em">require(evil-macros)</text></g>
+<g><rect x="1136.183px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1136.183px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1135.064px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1135.064px" y="5.4em">require(evil-states)</text></g>
+<g><rect x="1134.393px" y="3.3em" width="3.239870" height="1.1em" fill="hsl(232.348924, 100%, 35%)"/><text x="1134.393px" y="4.3em">require(evil-repeat)</text></g>
+<g><rect x="1130.931px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1130.931px" y="5.4em">require(evil-core)</text></g>
+<g><rect x="1130.118px" y="3.3em" width="4.231930" height="1.1em" fill="hsl(230.055279, 100%, 35%)"/><text x="1130.118px" y="4.3em">require(evil-states)</text></g>
+<g><rect x="1128.830px" y="4.4em" width="0.002861" height="1.1em" fill="hsl(239.993134, 100%, 35%)"/><text x="1128.830px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1127.554px" y="4.4em" width="0.005960" height="1.1em" fill="hsl(239.985695, 100%, 35%)"/><text x="1127.554px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1102.367px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1102.367px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1100.603px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1100.603px" y="5.4em">require(bytecomp)</text></g>
+<g><rect x="1100.024px" y="4.4em" width="0.001192" height="1.1em" fill="hsl(239.997139, 100%, 35%)"/><text x="1100.024px" y="5.4em">require(evil-common)</text></g>
+<g><rect x="1099.306px" y="3.3em" width="30.780077" height="1.1em" fill="hsl(176.414820, 100%, 35%)"/><text x="1099.306px" y="4.3em">require(evil-core)</text></g>
+<g><rect x="1090.346px" y="4.4em" width="2.581120" height="1.1em" fill="hsl(233.884576, 100%, 35%)"/><text x="1090.346px" y="5.4em">require(windmove)</text></g>
+<g><rect x="1087.153px" y="4.4em" width="3.166914" height="1.1em" fill="hsl(232.518498, 100%, 35%)"/><text x="1087.153px" y="5.4em">require(thingatpt)</text></g>
+<g><rect x="1083.251px" y="4.4em" width="3.881216" height="1.1em" fill="hsl(230.863531, 100%, 35%)"/><text x="1083.251px" y="5.4em">require(rect)</text></g>
+<g><rect x="1081.445px" y="5.5em" width="0.000000" height="1.1em" fill="hsl(240.000000, 100%, 35%)"/><text x="1081.445px" y="6.5em">require(evil-vars)</text></g>
+<g><rect x="1080.581px" y="4.4em" width="2.652884" height="1.1em" fill="hsl(233.716791, 100%, 35%)"/><text x="1080.581px" y="5.4em">require(evil-digraphs)</text></g>
+<g><rect x="1080.563px" y="4.4em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1080.563px" y="5.4em">require(evil-vars)</text></g>
+<g><rect x="1079.665px" y="3.3em" width="19.588947" height="1.1em" fill="hsl(197.304743, 100%, 35%)"/><text x="1079.665px" y="4.3em">require(evil-common)</text></g>
+<g><rect x="1046.757px" y="4.4em" width="4.579067" height="1.1em" fill="hsl(229.258056, 100%, 35%)"/><text x="1046.757px" y="5.4em">require(kmacro)</text></g>
+<g><rect x="1046.721px" y="4.4em" width="0.003099" height="1.1em" fill="hsl(239.992561, 100%, 35%)"/><text x="1046.721px" y="5.4em">require(cl-lib)</text></g>
+<g><rect x="1041.158px" y="3.3em" width="38.439989" height="1.1em" fill="hsl(163.406185, 100%, 35%)"/><text x="1041.158px" y="4.3em">require(evil-vars)</text></g>
+<g><rect x="1040.113px" y="2.2em" width="245.393991" height="1.1em" fill="hsl(20.629024, 100%, 35%)"/><text x="1040.113px" y="3.2em">require(evil)</text></g>
+<g><rect x="1039.198px" y="1.1em" width="392.642021" height="1.1em" fill="hsl(4.731389, 100%, 35%)"/><text x="1039.198px" y="2.1em">require(set-evil)</text></g>
+<g><rect x="1038.087px" y="2.2em" width="0.000954" height="1.1em" fill="hsl(239.997711, 100%, 35%)"/><text x="1038.087px" y="3.2em">require(bytecomp)</text></g>
+<g><rect x="1023.808px" y="1.1em" width="15.341997" height="1.1em" fill="hsl(205.864658, 100%, 35%)"/><text x="1023.808px" y="2.1em">require(set-color)</text></g>
+<g><rect x="1022.819px" y="1.1em" width="0.004053" height="1.1em" fill="hsl(239.990273, 100%, 35%)"/><text x="1022.819px" y="2.1em">require(bytecomp)</text></g>
+<g><rect x="0.000px" y="0.0em" width="3803.277016" height="1.1em" fill="hsl(0.000000, 100%, 35%)"/><text x="0.000px" y="1.0em">init</text></g>
+<script><![CDATA[
+    var rects = document.querySelectorAll('rect');
+    for (var i = 0; i < rects.length; ++i) {
+        rects[i].addEventListener('mousemove', function(e) {
+            var svg = document.querySelector('svg');
+            var text = e.target.parentNode.querySelector('text');
+            var svgRect  = svg.getBoundingClientRect();
+            var textRect = text.getBoundingClientRect();
+            var maxRight  = Math.min(svgRect.width,  window.scrollX + window.innerWidth);
+            var maxBottom = Math.min(svgRect.height, window.scrollY + window.innerHeight);
+            var newX = Math.min(e.pageX + 8, maxRight - textRect.width);
+            var newY = Math.min(e.pageY + 8 + textRect.height, maxBottom);
+            text.setAttribute('x', newX);
+            text.setAttribute('y', newY);
+        });
+    }
+]]></script>
+</svg>

@@ -1,47 +1,4 @@
-;;更新日 2016/11/03
-
-;;;;;;;;;;色についてのセクション;;;;;;;;;;
-;;基本的な文字, 背景など
-(set-background-color "black") ;背景色
-(set-foreground-color "white")  ;文字色
-
-;; 透明度を変更するコマンド M-x set-alpha
-;; http://qiita.com/marcy@github/items/ba0d018a03381a964f24
-(defun set-alpha (alpha-num)
-  "set frame parameter 'alpha"
-  (interactive "nAlpha: ")
-  (set-frame-parameter nil 'alpha (cons alpha-num '(85))))
-
-;;タブと全角スペース、行末の半角スペースの可視化
-(defface my-face-b-1 '((t (:background "NavajoWhite4"))) nil) ; 全角スペース
-(defface my-face-b-2 '((t (:background "gray10"))) nil) ; タブ
-(defface my-face-u-1 '((t (:background "SteelBlue" :underline t))) nil) ; 行末空白
-(defvar my-face-b-1 'my-face-b-1)
-(defvar my-face-b-2 'my-face-b-2)
-(defvar my-face-u-1 'my-face-u-1)
-(defadvice font-lock-mode (before my-font-lock-mode ())
-(font-lock-add-keywords
- major-mode
- '(("\t" 0 my-face-b-2 append)
- ("　" 0 my-face-b-1 append)
- ("[ \t]+$" 0 my-face-u-1 append)
- )))
-(ad-enable-advice 'font-lock-mode 'before 'my-font-lock-mode)
-(ad-activate 'font-lock-mode)
-;;;;;;;;;;色のセクションおわり;;;;;;;;;;
-
-;;yes/no を y/n に
-(fset 'yes-or-no-p 'y-or-n-p)
-
-;;時計
-(setq display-time-string-forms
-      '((format "%s/%s/%s(%s) %s:%s "
-		year month day dayname 24-hours minutes)
-	load
-	(if mail " Mail" "")))
-(display-time)
-(setq display-time-kawakami-form t)
-(setq display-time-24hr-format t)
+;;更新日 2016/12/25
 
 ;;Emacs24のパッケージ管理機能 M-x package-list-packages
 (require 'package)
@@ -50,199 +7,97 @@
 (package-initialize)
 ;;load-path
 (add-to-list 'load-path "~/.emacs.d/install")
+(add-to-list 'load-path "~/.emacs.d/install/original")
+(add-to-list 'load-path "~/.emacs.d/install/mode-line")
+
+;;use-package
+;(require 'use-package)
+
+;;パッケージごとの起動時間チェック
+;(require 'set-initchart)
+
+;;色についてのセクション
+(require 'set-color)
 
 ;;evil emacsをvimのごとく使う
-(require 'evil)
-(evil-mode 1)
-(setcdr evil-insert-state-map nil) ;;insertモード中はevilはロック
-(define-key evil-insert-state-map [escape] 'evil-normal-state);;ロック中でもescは有効
-;;以下、２つは不具合があるため、一番下に記述
-;;(require 'mode-line-color)
-;;(require 'evil-mode-line)
+;(require 'set-evil)
+
+;;helm
+;(require 'set-helm)
+
+;;tabbar
+(require 'set-tabbar)
+
+;;minimap M-x minimap-mode
+(require 'minimap)
 
 ;;git-gutter 差分表示
-(require 'git-gutter-fringe)
-(require 'fringe-helper)
-(require 'smartrep)
-(global-git-gutter-mode t)
-(smartrep-define-key
-    global-map  "C-x" '(("p" . 'git-gutter:previous-hunk)
-                        ("n" . 'git-gutter:next-hunk)))
+;; (require 'git-gutter-fringe)
+;; (require 'fringe-helper)
+;; (require 'smartrep)
+;; (global-git-gutter-mode t)
+;; (smartrep-define-key
+;;     global-map  "C-x" '(("p" . 'git-gutter:previous-hunk)
+;;                         ("n" . 'git-gutter:next-hunk)))
 
-;;自動補完 auto-complete
-;必須
-(require 'auto-complete-config)
-(ac-config-default)
-;その他
-(setq ac-use-menu-map t)
+;;magit -emacsでgitを使う-
+;(require 'magit)
 
-;;;;;;文法チェック flymake;;;;;
-(require 'flymake)
-;ハイライト色
-(set-face-background 'flymake-errline nil)    ;既存のフェイスを無効にする
-(set-face-foreground 'flymake-errline nil)
-(set-face-background 'flymake-warnline nil)
-(set-face-foreground 'flymake-warnline nil)
+;;web-mode
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[gj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(setq web-mode-engines-alist
+'(("php"    . "\\.phtml\\'")
+  ("blade"  . "\\.blade\\.")))
 
-(make-face 'my-flymake-warning-face)
-(set-face-foreground 'my-flymake-warning-face "yellow")
-(set-face-background 'my-flymake-warning-face "black")
-(setq my-flymake-warning-face 'my-flymake-warning-face)
+;;Latex
+;;yatex
+(require 'yatex)
+(autoload 'yatex-mode "yatex" "Yet Another LaTeX mode" t)
+(setq auto-mode-alist
+      (append '(("\\.tex$" . yatex-mode)
+        ("\\.ltx$" . yatex-mode)
+        ("\\.sty$" . yatex-mode)) auto-mode-alist))
+;; set YaTeX coding system
+(setq YaTeX-kanji-code 4) ; UTF-8 の設定
+(add-hook 'yatex-mode-hook
+      '(lambda ()
+         (setq YaTeX-use-AMS-LaTeX t) ; align で数式モードになる
+         (setq YaTeX-use-hilit19 nil
+           YateX-use-font-lock t)
+         ; (setq tex-command "em-latexmk.sh") ; typeset command
+         (setq dvi2-command "evince") ; preview command
+         ;(setq tex-pdfview-command "xdg-open")
+ )) ; preview command
 
-(defvar flymake-fringe-overlays nil)
-(make-variable-buffer-local 'flymake-fringe-overlays)
+;;自動補完
+;(require 'set-auto-compelte)
+(require 'set-company)
 
-(defadvice flymake-make-overlay (after add-to-fringe first
-                                       (beg end tooltip-text face mouse-face)
-                                       activate compile)
-  (push (fringe-helper-insert-region
-           beg end
-           (fringe-lib-load (if (eq face 'flymake-errline)
-                                fringe-lib-exclamation-mark
-                              fringe-lib-question-mark))
-           'left-fringe 'my-flymake-warning-face)
-           ;; 'left-fringe 'font-lock-warning-face)
-        flymake-fringe-overlays))
+;;文法チェック
+(require 'set-flycheck)
+(require 'set-flymake)
 
-(defadvice flymake-delete-own-overlays (after remove-from-fringe activate
-                                              compile)
-  (mapc 'fringe-helper-remove flymake-fringe-overlays)
-  (setq flymake-fringe-overlays nil))
-
-;c/c++有効
-(defun flymake-cc-init ()
-  (let* ((temp-file   (flymake-init-create-temp-buffer-copy
-                       'flymake-create-temp-inplace))
-         (local-file  (file-relative-name
-                       temp-file
-                       (file-name-directory buffer-file-name))))
-    (list "g++" (list "-Wall" "-Wextra" "-fsyntax-only" local-file))))
-
-(push '("\\.cpp$" flymake-cc-init) flymake-allowed-file-name-masks)
-(add-hook 'c++-mode-hook
-          '(lambda()
-             (flymake-mode t)
-             (flymake-cursor-mode t)
-             (setq flymake-check-was-interrupted t)
-             (local-set-key "\C-c\C-v" 'flymake-start-syntax-check)
-             (local-set-key "\C-c\C-p" 'flymake-goto-prev-error)
-             (local-set-key "\C-c\C-n" 'flymake-goto-next-error)
-          )
-)
-
-;java
-(defun my-java-flymake-init ()
-  (list "javac" (list (flymake-init-create-temp-buffer-copy
-                       'flymake-create-temp-with-folder-structure))))
-(add-to-list 'flymake-allowed-file-name-masks '("\\.java$" my-java-flymake-init flymake-simple-cleanup))
-(add-hook 'java-mode-hook 'flymake-mode-on)
-
-;;ruby
-;; Invoke ruby with '-c' to get syntax checking
-(defun flymake-ruby-init ()
-  (let* ((temp-file   (flymake-init-create-temp-buffer-copy
-                       'flymake-create-temp-inplace))
-	 (local-file  (file-relative-name
-                       temp-file
-                       (file-name-directory buffer-file-name))))
-    (list "ruby" (list "-c" local-file))))
-
-(push '(".+\\.rb$" flymake-ruby-init) flymake-allowed-file-name-masks)
-(push '("Rakefile$" flymake-ruby-init) flymake-allowed-file-name-masks)
-
-(push '("^\\(.*\\):\\([0-9]+\\): \\(.*\\)$" 1 2 nil 3) flymake-err-line-patterns)
-
-(add-hook 'ruby-mode-hook
-          '(lambda ()
-
-	     ;; Don't want flymake mode for ruby regions in rhtml files and also on read only files
-	     (if (and (not (null buffer-file-name)) (file-writable-p buffer-file-name))
-		 (flymake-mode))
-	     ))
-
-;;python-python-pyflakes
-; pipのインストール
-; $ sudo pip install pyflakes
-
-;python-mode
-(require 'python-mode)
-(autoload 'python-mode "python-mode" "Python editing mode." t)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(column-number-mode t)
- '(cua-mode t nil (cua-base))
- '(display-time-mode t)
- '(py-indent-offset 4)
- '(show-paren-mode t))
-(add-hook 'python-mode-hook
-  '(lambda()
-    (setq tab-width 4) 
-    (setq indent-tabs-mode nil)
-  )
-)
-;python
-(require 'flymake-python-pyflakes)
-(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
+;;ruby設定
+(require 'set-ruby)
 
 
-;ミニバッファにエラー文表示（カーソルをかざす）
-(defun flymake-show-help ()
-  (when (get-char-property (point) 'flymake-overlay)
-    (let ((help (get-char-property (point) 'help-echo)))
-      (if help (message "%s" help)))))
-(add-hook 'post-command-hook 'flymake-show-help)
+;;go設定
+(require 'set-go)
 
-;;;;;;文法チェック flymake おわり;;;;;;
-
-;;{とうつと}, "とうつと"のように対応する文字を自動入力
-;;(electric-pair-mode t)
-;;(add-to-list 'electric-pair-pairs '(?| . ?|))
-;;(add-to-list 'electric-layout-rules '(?{ . after)) ;{の後に改行を挿入}
-
-;;ファイルのフルパスをタイトルバーに表示
-(setq frame-title-format
-      (format "%%f - Emacs@%s" (system-name)))
-
-
-;;括弧の中を強調表示
-(setq show-paren-delay 0)
-(show-paren-mode t)
-(setq show-paren-style 'expression)
-(set-face-background 'show-paren-match-face "#4123AA") ;括弧の範囲色
-
-;;深さレベル括弧色分け
-; rainbow-delimiters を使うための設定
-(require 'rainbow-delimiters)
-(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
-; 括弧の色を強調する設定
-(require 'cl-lib)
-(require 'color)
-(defun rainbow-delimiters-using-stronger-colors ()
-  (interactive)
-  (cl-loop
-   for index from 1 to rainbow-delimiters-max-face-count
-   do
-   (let ((face (intern (format "rainbow-delimiters-depth-%d-face" index))))
-    (cl-callf color-saturate-name (face-foreground face) 30))))
-(add-hook 'emacs-startup-hook 'rainbow-delimiters-using-stronger-colors)
+;;括弧の設定
+(require 'set-brackets)
 
 ;;;;;;;;;;各種機能;;;;;;;;;;
-(setq inhibit-startup-screen t) ;スタートメニュー非表示
-(setq kill-whole-line t) ;C-kで行全体を削除
-(setq delete-auto-save-files t) ;終了時にオートセーブファイルを消す
-(global-linum-mode) ;;; 行の表示(バッファー)
-(column-number-mode t) ;何文字目かを表示(モードライン)
-(line-number-mode t) ;行の表示(モードライン)
-(scroll-bar-mode 0) ;スクロールバーを消す
-(icomplete-mode t) ;バッファー移動時にミニウィンドウに候補を表示
-(set-frame-parameter nil 'alpha 85)
-
-;;browse-kill-ring
-(require 'browse-kill-ring)
-(define-key ctl-x-map "\C-y" 'browse-kill-ring)
+;;他の環境で使用するとmozcの設定でエラー出る可能性あり
+(require 'set-else)
 
 ;;C-x,C-c,C-v
 (custom-set-faces
@@ -251,215 +106,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-;;ステートをモードラインに
-(eval-when-compile (require 'cl))
-
-(defgroup mode-line-color nil
-  "Mode line color."
-  :prefix "mode-line-color-"
-  :group 'mode-line)
-
-(defcustom mode-line-color-buffers-regexp '("^\\*scratch\\*$")
-  "List of regular expressions of buffer names to enable mode-line-color-mode automatically."
-  :group 'mode-line-color
-  :type '(repeat 'string))
-
-(defcustom mode-line-color-exclude-buffers-regexp '("^ ")
-  "List of regular expressions of buffer names not to enable mode-line-color-mode automatically."
-  :group 'mode-line-color
-  :type '(repeat 'string))
-
-(defvar mode-line-color-hook nil
-  "hook for setting mode line color
-
-   Usage:
-     (defun your-function-to-set-mode-line-color (setter)
-       (funcall setter \"yellow\"))
-     (add-hook 'mode-line-color-hook 'your-function-to-set-mode-line-color)")
-
-(defvar mode-line-color-mode nil)
-(defvar mode-line-color-color nil)
-(defvar mode-line-color-original nil)
-(defvar mode-line-color-activated nil)
-(make-variable-buffer-local 'mode-line-color-activated)
-
-(defun mode-line-color-set-color (color)
-  (setq mode-line-color-color color))
-
-(defun mode-line-color-excluded-p ()
-  (let* ((buffer (current-buffer)) (name (buffer-name buffer)))
-    (flet ((mem-pat (s l)
-             (memq nil (mapcar #'(lambda (r) (not (string-match-p r s))) l))))
-      (or (minibufferp buffer)
-          (and (not (mem-pat name mode-line-color-buffers-regexp))
-               (mem-pat name mode-line-color-exclude-buffers-regexp))))))
-
-(defun mode-line-color-active-p ()
-  (unless mode-line-color-activated ; make cache
-    (let ((exclude (mode-line-color-excluded-p)))
-      (setq mode-line-color-activated (if exclude 0 1))))
-  (= 1 mode-line-color-activated))
-
-(defun mode-line-color-update (&optional force)
-  (if (mode-line-color-active-p)
-      (let ((mode-line-color-color nil))
-        (run-hook-with-args 'mode-line-color-hook 'mode-line-color-set-color)
-        (set-face-background 'mode-line (or mode-line-color-color
-                                            mode-line-color-original)))
-    (unless (minibufferp)
-      (set-face-background 'mode-line mode-line-color-original))))
-
-(defmacro define-mode-line-color (bind &rest body)
-  (declare (indent defun))
-  (let ((prev (nth 0 bind)))
-    `(add-hook 'mode-line-color-hook
-               #'(lambda (setter)
-                   (let* ((,prev mode-line-color-color) (color (progn ,@body)))
-                     (when color (funcall setter color)))))))
-
-(defun mode-line-color-install ()
-  (unless mode-line-color-original
-    (setq mode-line-color-original (face-background 'mode-line)))
-  (add-hook 'post-command-hook 'mode-line-color-update))
-
-(defun mode-line-color-uninstall ()
-  (set-face-background 'mode-line mode-line-color-original)
-  (remove-hook 'post-command-hook 'mode-line-color-update))
-
-(defadvice set-buffer (after update-mode-line-color activate)
-  (when (eq (current-buffer) (window-buffer (selected-window)))
-    (mode-line-color-update)))
-
-(defadvice kill-buffer (after update-mode-line-color activate)
-  (mode-line-color-update))
-
-;;;###autoload
-(define-minor-mode mode-line-color-mode
-  "Set color of mode line."
-  :global t
-  :group 'mode-line-color
-  (if mode-line-color-mode
-      (mode-line-color-install)
-    (mode-line-color-uninstall)))
-
-(provide 'mode-line-color)
-
-;;; evil-mode-line.el --- Mode line plugin for Evil
-
-;; Author: INA Lintaro <tarao.gnn at gmail.com>
-;; URL: http://github.com/tarao/evil-plugins
-;; Version: 0.1
-;; Keywords: evil, plugin
-
-;; This file is NOT part of GNU Emacs.
-
-;;; License:
-;;
-;; This program is free software: you can redistribute it and/or modify
-;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation, either version 3 of the License, or
-;; (at your option) any later version.
-;;
-;; This program is distributed in the hope that it will be useful,
-;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-;; GNU General Public License for more details.
-;;
-;; You should have received a copy of the GNU General Public License
-;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-;;; Code:
-
-(defgroup evil-mode-line nil
-  "Mode line color and message for Evil"
-  :group 'evil)
-
-(defcustom evil-mode-line-color
-  `((normal   . ,(face-background 'mode-line))
-    (insert   . "#575735")
-    (replace  . "#575735")
-    (operator . "DarkSeaGreen4")
-    (visual   . "SteelBlue4")
-    (emacs    . "#8c5353"))
-  "Mode line color corresponds to Evil state."
-  :type '(alist :key-type symbol :value-type string)
-  :group 'evil-mode-line)
-(defcustom evil-normal-state-msg ""
-  "Mode line message for Evil normal state."
-  :type 'string
-  :group 'evil-mode-line)
-(defcustom evil-insert-state-msg "INSERT"
-  "Mode line message for Evil insert state."
-  :type 'string
-  :group 'evil-mode-line)
-(defcustom evil-replace-state-msg "REPLACE"
-  "Mode line message for Evil replace state."
-  :type 'string
-  :group 'evil-mode-line)
-(defcustom evil-emacs-state-msg "x"
-  "Mode line message for Evil emacs state."
-  :type 'string
-  :group 'evil-mode-line)
-(defcustom evil-visual-state-msg-alist
-  '((normal . "VISUAL") (line . "VLINE") (block . "VBLOCK"))
-  "Mode line messages for Evil visual states."
-  :type '(list (cons symbol string))
-  :group 'evil-mode-line)
-
-(defun evil-mode-line-state-msg (&optional state)
-  "Find a message string for STATE.
-If `evil-STATE-state-msg' is bound, use that value.  Otherwise,
-if STATE is a visual state, then `evil-visual-state-msg-alist' is
-looked up by the return value of `evil-visual-type'.  If no
-message string is found, return an empty string."
-  (unless state (setq state evil-state))
-  (let ((sym (intern (concat "evil-" (symbol-name state) "-state-msg"))))
-    (cond
-     ((boundp sym) (symbol-value sym))
-     ((evil-visual-state-p)
-      (or (cdr (assq (evil-visual-type) evil-visual-state-msg-alist))
-          (cdr (assq 'normal evil-visual-state-msg-alist))))
-     (t ""))))
-
-(defun evil-mode-line-state-msg-format (&optional state)
-    "Make mode string for STATE.
-If `evil-mode-line-state-msg' returns non-empty string, the mode string
-is \"--STATE MESSAGE--\".  Otherwise, the mode string is \"-\"."
-    (let* ((msg (evil-mode-line-state-msg state)) (line msg)
-           (empty (= (length msg) 0)) (tail (if empty "-" "--")))
-      (unless empty (setq line (concat "--" msg)))
-      (list "" line tail)))
-(defadvice skk-mode-string-to-indicator
-  (before evil-remove----from-skk-mode-string (mode string) activate)
-  "Do not put \"--\" at the beginning of mode string.
-We have our own \"--\" put by `evil-mode-line-state-msg-format'."
-  (when (string-match "^--" string)
-    (setq string (substring string 2))))
-
-(defvar evil-mode-line-msg (evil-mode-line-state-msg-format 'emacs-state))
-
-(defun evil-update-mode-line-state-msg ()
-  "Update `evil-mode-line-msg' and update mode line color."
-  (condition-case ()
-      (progn
-        (set (make-local-variable 'evil-mode-line-msg)
-             (evil-mode-line-state-msg-format))
-        (mode-line-color-update))
-    (error nil)))
-
-(defadvice evil-refresh-mode-line (after evil-update-mode-line-msg activate)
-  "Update our own mode string by `evil-update-mode-line-msg'."
-  (evil-update-mode-line-state-msg))
-
-;; setup
-
-(define-mode-line-color (color)
-  (unless color (cdr (assq evil-state evil-mode-line-color))))
-
-(setq-default mode-line-format
-              (append '("" evil-mode-line-msg) mode-line-format))
-
-(provide 'evil-mode-line)
-;;; evil-mode-line.el ends here
-
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(flycheck-display-errors-function (function flycheck-pos-tip-error-messages))
+ '(package-selected-packages
+   (quote
+    (flycheck-mypy yatex web-mode twittering-mode smartrep ruby-test-mode ruby-electric ruby-block rubocop robe rainbow-mode rainbow-delimiters python-mode pyflakes projectile magit helm git-gutter-fringe git-gutter-fringe+ flymake-ruby flymake-python-pyflakes flymake flycheck-pos-tip flycheck-irony flx evil enh-ruby-mode elpy company-jedi company-irony company-inf-ruby browse-kill-ring auto-complete))))
