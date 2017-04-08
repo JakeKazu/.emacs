@@ -1,4 +1,4 @@
-;;更新日 2016/12/25
+;;更新日 2017/4/08
 
 ;;Emacs24のパッケージ管理機能 M-x package-list-packages
 (require 'package)
