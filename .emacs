@@ -1,4 +1,4 @@
-;;更新日 2017/4/08
+;;更新日 2016/12/25
 
 ;;Emacs24のパッケージ管理機能 M-x package-list-packages
 (require 'package)
@@ -15,6 +15,15 @@
 
 ;;パッケージごとの起動時間チェック
 ;(require 'set-initchart)
+
+
+;; gnuplot-mode
+(require 'gnuplot-mode)
+;; specify the gnuplot executable (if other than /usr/bin/gnuplot)
+(setq gnuplot-program "/sw/bin/gnuplot")
+;; automatically open files ending with .gp or .gnuplot in gnuplot mode
+(setq auto-mode-alist
+(append '(("\\.\\(gp\\|gnuplot\\)$" . gnuplot-mode)) auto-mode-alist))
 
 ;;色についてのセクション
 (require 'set-color)
